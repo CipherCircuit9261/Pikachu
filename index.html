@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikachu - The Electric Pokémon</title>
+    <link rel="shortcut icon" href="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#abilities">Abilities</a></li>
+                <li><a href="#evolution">Evolution</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-text">
+            <h1>Pikachu - The Electric Pokémon</h1>
+            <p>Uncover the electrifying details about Pikachu, the iconic Pokémon of the franchise.</p>
+            <button onclick="scrollToSection('stats')">Explore Pikachu's Stats</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" alt="Pikachu" />
+        </div>
+    </section>
+
+    <!-- Pikachu Stats Section -->
+    <section id="stats">
+        <h2>Pikachu's Stats</h2>
+        <div class="stat">
+            <h3>Height</h3>
+            <p>0.4 m</p>
+        </div>
+        <div class="stat">
+            <h3>Weight</h3>
+            <p>6.0 kg</p>
+        </div>
+        <div class="stat">
+            <h3>Type</h3>
+            <p>Electric</p>
+        </div>
+        <div class="stat">
+            <h3>Base Experience</h3>
+            <p>112</p>
+        </div>
+    </section>
+
+    <!-- Pikachu's Abilities Section -->
+    <section id="abilities">
+        <h2>Pikachu's Abilities</h2>
+        <ul>
+            <li><strong>Static</strong>: May cause paralysis when touched.</li>
+            <li><strong>Lightning Rod</strong>: Draws Electric-type moves to Pikachu to boost its Special Attack.</li>
+        </ul>
+    </section>
+
+    <!-- Evolution Section -->
+    <section id="evolution">
+        <h2>Pikachu's Evolution</h2>
+        <div class="evolution">
+            <h3>Pichu → Pikachu → Raichu</h3>
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/evolution/25.png" alt="Evolution stages of Pikachu">
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Pikachu Gallery</h2>
+        <div class="gallery">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" alt="Pikachu 1">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Pikachu 2">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu 3">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" alt="Pikachu 4">
+        </div>
+    </section>
+
+    <footer>
+        <p>Made with love for the Electric Pokémon. ©2025</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
